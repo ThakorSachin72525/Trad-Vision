@@ -7,6 +7,7 @@ import Left from "./Left";
 import Right from "./Right";
 import Logo from "./logo";
 import "./index.css";
+import Hamburger from "./Hamburger";
 
 function Navbar() {
 

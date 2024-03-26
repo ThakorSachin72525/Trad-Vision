@@ -1,5 +1,5 @@
 .nav{
-    background-color: black;
+    background-color: #171516;
 }
 .left{
     display: flex;
@@ -28,4 +28,10 @@
 }
 .left img{
     height: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    .right{
+        display: none;
+    }
 }
