@@ -19,7 +19,6 @@ function Right() {
   return (
     <div className="right">
       <Flex align="center" ml={8}>
-        <NavItem label="Home" />
         <NavItem label="Contact Us" />
         <NavItem label="About Us" />
       <IconButton

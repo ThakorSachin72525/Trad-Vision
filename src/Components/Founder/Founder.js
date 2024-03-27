@@ -15,7 +15,7 @@ function Founder() {
       <div style={{ display: 'flex', justifyContent: 'space-around', width: '100%' }}>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <h2 style={{ color: '#333', marginBottom: '10px' }}>Founder</h2>
-          <p style={{ color: '#666', marginBottom: '20px' }}>Prem Sadhu</p>
+          <p style={{ fontWeight: "500", color: '#666', marginBottom: '20px' }}>Narbheram Sadhu</p>
 
           <img 
             src={FounderImg} 
@@ -30,13 +30,13 @@ function Founder() {
           />
 
           <p style={{ color: '#666', textAlign: 'center' }}>
-            The founder of our platform, is a seasoned trader with over 25 years of experience in the stock market. He started his journey in the financial world right after graduating from the University of Mumbai with a degree in Finance.
+          The platform’s founder is a seasoned trader with a decade of diverse trading experience, including full-time intraday and forex trading.
           </p>
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <h2 style={{ color: '#333', marginBottom: '10px' }}>Director</h2>
-          <p style={{ color: '#666', marginBottom: '20px' }}>Director's Name</p>
+          <p style={{ fontWeight: "500", color: '#666', marginBottom: '20px' }}>Prem Sadhu</p>
 
           <img 
             src={DirectorImg} 
@@ -51,7 +51,7 @@ function Founder() {
           />
 
           <p style={{ color: '#666', textAlign: 'center' }}>
-            Our director, with a rich background in both academia and industry, brings a unique perspective to our platform. After earning a Ph.D. in Economics from the London School of Economics, they spent several years teaching at a prestigious university.
+          Our director, with a rich blend of academic and industry experience, brings a unique perspective to our platform.
           </p>
         </div>
       </div>

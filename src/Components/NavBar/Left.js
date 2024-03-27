@@ -1,17 +1,24 @@
 import './index.css';
-import { useMediaQuery, useColorMode } from '@chakra-ui/react';
-import Tlogo from "./Tlogo.png"
+import { Flex, Link } from '@chakra-ui/react';
+import "./index.css";
 
 function Left() {
-  const { colorMode } = useColorMode();
-  const isDark = colorMode === "dark";
-  const { isNotSmallerScreen } = useMediaQuery("(min-width:600px)");
   
   return (
     <div className='left'>
-        <img src={Tlogo}/>
+        <Flex align="center" ml={8}>
+          <NavItem label="Home" />
+          <NavItem label="Courses" />
+        </Flex>
     </div>
   )
+}
+function NavItem({ label }) {
+  return (
+    <Link href={`/${label.toLowerCase()}`} fontSize="md" ml={4}>
+      {label}
+    </Link>
+  );
 }
 
 export default Left

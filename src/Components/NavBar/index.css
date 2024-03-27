@@ -6,6 +6,8 @@
     align-items: center;
     justify-content: space-between;
     width: 40%;
+    font-weight: 500;
+    color: white;
 }
 .right{
     color: #ffff;

@@ -6,7 +6,9 @@ import Our_Philosopny from './Components/Our Philosophy/OurPhi';
 import YouTube from './Components/youtube/YouTube'
 import Mission from './Components/youtube/Mission';
 import Founder from './Components/Founder/Founder';
-
+import SocialMedia from './Components/Social-Media/Social-Media'
+import Form from './Components/Form/Form'
+import Disclaimer from './Components/Disclaimer/Disclaimer';
 function App() {
 
   return (
@@ -18,6 +20,9 @@ function App() {
       <YouTube/>
       <Mission/>
       <Founder/>
+      <SocialMedia/>
+      <Form/>
+      <Disclaimer/>
     </div>
   );
 }

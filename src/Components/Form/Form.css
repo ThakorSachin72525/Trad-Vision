@@ -1,0 +1,36 @@
+.chakra-input {
+    border-color: gray !important;
+
+  }
+header{
+    font-size: 30px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.form {
+    position: relative;
+    background-image: url('./img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.form-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.sidetext{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 20px;
+}
+#texticons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+

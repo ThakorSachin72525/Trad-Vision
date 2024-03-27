@@ -4,21 +4,13 @@ function Mission() {
     <div className="missiontext">
       <h2>Our <span>Mission</span></h2>
       <p>
-        Our mission is to democratize financial education and empower
-        individuals to navigate the complex world of trading and the stock
-        market. We are committed to providing comprehensive, accessible, and
-        affordable courses that equip learners with the knowledge and skills
-        they need to make informed financial decisions.
+      Our Academy offers short-term crash courses and medium-term courses for those who aspire to become traders or invest in the Indian stock market. 
+      The educational emphasis of Finwings is on enhancing the trading psychology of candidates. We focus on proper risk management to ensure that our students are analytically equipped and practically oriented.
       </p>
 
       <h2>Our <span>Vision</span></h2>
       <p>
-        Our vision is to be the leading online learning platform for trading and
-        stock market education. We envision a future where anyone, regardless of
-        their background or experience level, has the opportunity to understand
-        and participate in financial markets. Through our courses, we aim to
-        foster a community of informed investors who contribute to a robust and
-        transparent global economy.
+      We are committed to providing lifetime support to our candidates for their enhancement and future career, offering them an opportunity to trade in the stock market with professional intent. We also provide placement opportunities in broking houses, proprietary trading firms, and fund management institutes as Equity Researchers, Skilled Traders, Technical Analysts, and Fund Managers.
       </p>
     </div>
   );

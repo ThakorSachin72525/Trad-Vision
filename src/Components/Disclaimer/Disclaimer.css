@@ -1,0 +1,11 @@
+#disclaimer{
+    background-color: white;
+    color: black;
+}
+#disclaimer h2{
+    font-weight: 600;
+    font-size: 20px;
+}
+.dis{
+    padding: 45px;
+}

@@ -1,0 +1,29 @@
+.icons{
+    background-color: white;
+}
+.socialmedia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+#connct{
+    color: white;
+    background-color: black;
+    height: 60px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+}
+.socialmedia img{
+    height: 60px;
+}
+#iconsAndText{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
