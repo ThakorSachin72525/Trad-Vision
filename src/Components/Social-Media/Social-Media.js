@@ -35,11 +35,11 @@ function SocialMedia() {
       </div>
       <div id='iconsAndText'>
         <img onClick={() => window.open("https://mail.google.com/mail/u/0/#imp/FMfcgzGxSHnhCHsdqQWgvCRCjFSrMRxL?compose=new")} src={Gmail}/>
-        <b>traadevision100@gmail.com</b>
+        <b>tradevision100@gmail.com</b>
       </div>
       <div id='iconsAndText'>
         <img src={Phone}/>
-        <b>Connect No <br/> 93133 55076</b>
+        <b>Connect No <br/>9313355076</b>
       </div>
       </div>
 

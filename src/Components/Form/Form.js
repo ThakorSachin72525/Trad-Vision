@@ -1,78 +1,97 @@
 import { Box, Button, FormControl, FormLabel, Input } from "@chakra-ui/react";
-import Img1 from './img1.jpg'
-import './Form.css'
+import emailjs from '@emailjs/browser';
+import { useRef } from "react";
+import './Form.css';
 
 function Form() {
+  const form = useRef(); // Creating a ref for the form
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_zx7x1fv', 'template_lvszf06', form.current, 'V_8u2MBDeOXCX65Uz')
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+    e.target.reset();
+  };
+
   return (
     <div className='form'>
-        <header>
-            Connect with our Experts
-        </header>
+      <header>
+        Connect with our Experts
+      </header>
 
-        <div className="form-details">
-
+      <div className="form-details">
         <div className="sidetext">
           <div id="texticons">
-            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/laptop.png"/>
+            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/laptop.png" alt="Laptop Icon" />
             <b>Live Market Hours Learning</b>
           </div>
 
           <div id="texticons">
-            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/id-card.png"/>
+            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/id-card.png" alt="ID Card Icon" />
             <b>Lifetime membership</b>
           </div>
 
           <div id="texticons">
-            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/calendar.png"/>
+            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/calendar.png" alt="Calendar Icon" />
             <b>12 Years of Experience</b>
           </div>
 
           <div id="texticons">
-            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/chess-1.png"/>
+            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/chess-1.png" alt="Chess Icon" />
             <b>70+ In-house Trading Strategies</b>
           </div>
 
           <div id="texticons">
-            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/candlestick.png"/>
+            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/candlestick.png" alt="Candlestick Icon" />
             <b>30+ Options Trading Strategies</b>
           </div>
         </div>
 
         <Box className="details" p={5}>
-      <FormControl id="FirstName">
-        <FormLabel>First Name</FormLabel>
-        <Input type="text" />
-      </FormControl>
-        
-      <FormControl id="LastName">
-        <FormLabel>Last Name</FormLabel>
-        <Input type="text" />
-      </FormControl>
+          
+          <form ref={form} onSubmit={sendEmail}>
+            <FormControl id="UserName">
+              <FormLabel>Name</FormLabel>
+              <Input type="text" name="user_name" />
+            </FormControl>
 
-      <FormControl id="PhoneNum">
-        <FormLabel>Phone Number</FormLabel>
-        <Input type="number" />
-      </FormControl>
+            <FormControl id="PhoneNum">
+              <FormLabel>Phone Number</FormLabel>
+              <Input type="tel" name="user_phone" />
+            </FormControl>
 
-      <FormControl id="Location">
-        <FormLabel>Your Location</FormLabel>
-        <Input type="text" />
-      </FormControl>
+            <FormControl id="Location">
+              <FormLabel>Your Location</FormLabel>
+              <Input type="text" name="user_location" />
+            </FormControl>
 
-      <FormControl id="email">
-        <FormLabel>Email address</FormLabel>
-        <Input type="email" />
-      </FormControl>
+            <FormControl id="email">
+              <FormLabel>Email address</FormLabel>
+              <Input type="email" name="user_email" />
+            </FormControl>
 
-      <Button mt={4} colorScheme="teal" type="submit">
-        Submit
-      </Button>
+            <FormControl id="msg">
+              <FormLabel>Message</FormLabel>
+              <Input type="text" name="message" />
+            </FormControl>
+
+            <Button mt={4} colorScheme="teal" type="submit">
+              Submit
+            </Button>
+          </form>
         </Box>
-
-        
-        </div>
+      </div>
     </div>
   )
 }
 
-export default Form
+export default Form;
