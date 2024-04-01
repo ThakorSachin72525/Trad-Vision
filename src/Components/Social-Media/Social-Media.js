@@ -10,11 +10,13 @@ function SocialMedia() {
   return (
     <div className='icons'>
       <div id='connct'>
-        <h2>Connect with us on SocialMedia</h2>
+        <h2>Connect with us on <span>SocialMedia</span></h2>
       </div>
 
       <div className='socialmedia'>
 
+      <div className='soIcons'>
+        
       <div id='iconsAndText'>
         <img onClick={() => window.open("https://www.instagram.com/trade__vision__007/")} src={Insta}/>
         <b>Instagram</b>
@@ -33,6 +35,10 @@ function SocialMedia() {
         <img onClick={() => window.open("https://chat.whatsapp.com/HX9LmzTPplyJaERRaHHxNV")} src={WhatsApp}/>
         <b>WhatsApp</b>
       </div>
+
+      </div>
+
+      <div className='soIcons'>
       <div id='iconsAndText'>
         <img onClick={() => window.open("https://mail.google.com/mail/u/0/#imp/FMfcgzGxSHnhCHsdqQWgvCRCjFSrMRxL?compose=new")} src={Gmail}/>
         <b>tradevision100@gmail.com</b>
@@ -41,6 +47,8 @@ function SocialMedia() {
         <img src={Phone}/>
         <b>Connect No <br/>9313355076</b>
       </div>
+      </div>
+
       </div>
 
     </div>

@@ -1,5 +1,7 @@
 .nav{
     background-color: #171516;
+    position: fixed;
+    width: 1280px;
 }
 .left{
     display: flex;
@@ -8,8 +10,14 @@
     width: 40%;
     font-weight: 500;
     color: white;
+    cursor: pointer;
+}
+#iconsAndText img{
+    height: 30px;
+    margin: 10px;
 }
 .right{
+    cursor: pointer;
     color: #ffff;
     width: 40%;
     display: flex;
@@ -25,8 +33,7 @@
     width: 20%;
 }
 .logo_img img{
-    border-radius: 50%;
-    height: 60px;
+   height: 60px;
 }
 .left img{
     height: 50px;

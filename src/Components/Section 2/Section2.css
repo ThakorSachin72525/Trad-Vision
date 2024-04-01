@@ -17,8 +17,8 @@
         flex-direction: row; /* Stack the images vertically on small devices */
     }
     .sec2imgs img {
-        height: 200px;
-        width: 220px; /* Adjust the height to maintain aspect ratio */
+        height: 150px;
+        width: 160px; /* Adjust the height to maintain aspect ratio */
         max-width: 100%; /* Make sure the image doesn't overflow the container */
     }
 }

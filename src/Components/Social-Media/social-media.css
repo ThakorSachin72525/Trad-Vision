@@ -1,29 +1,78 @@
-.icons{
-    background-color: white;
+.icons {
+  background-color: white;
 }
-.socialmedia{
+.socialmedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  color: black;
+  padding: 20px;
+}
+#connct {
+  color: white;
+  background-color: black;
+  height: 60px;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 5px;
+  font-size: 30px;
+}
+span {
+  color: #00f381;
+}
+.socialmedia img {
+  height: 60px;
+}
+#iconsAndText {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.soIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .icons {
+    height: 250px;
+  }
+  .socialmedia {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    gap: 20px;
+    flex-direction: column;
+    gap: 10px;
     text-align: center;
     color: black;
-    padding: 20px;
-}
-#connct{
-    color: white;
-    background-color: black;
-    height: 60px;
-    text-align: center;
-    padding-top: 5px;
-    font-size: 30px;
-}
-.socialmedia img{
-    height: 60px;
-}
-#iconsAndText{
+  }
+  .socialmedia img {
+    height: 30px;
+  }
+  #iconsAndText {
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+
+  #connct {
+    color: white;
+    background-color: black;
+    height: 85px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 5px;
+    font-size: 25px;
+  }
+  .soIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
 }

@@ -2,29 +2,15 @@
     border-color: gray !important;
 
   }
-.headers{
-    font-size: 30px;
-    background-color: rgba(0,0 ,0,0.8);
-    text-align: center;
-    color: white;
-    padding: 10px;
-    height: 70px;
-}
-span{
-    font-weight: 600;
-}
-.form {
-    position: relative;
+.form-details{
     background-image: url('./img1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-  }
-
-.form-details{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+    height: 550px;
 }
 .sidetext{
     display: flex;

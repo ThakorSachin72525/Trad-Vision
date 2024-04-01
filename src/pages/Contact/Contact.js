@@ -1,9 +1,10 @@
+import React, { useRef } from "react";
+import NavBar from "../../Components/NavBar/Navbar.js";
 import { Box, Button, FormControl, FormLabel, Input } from "@chakra-ui/react";
 import emailjs from '@emailjs/browser';
-import { useRef } from "react";
-import './Form.css';
+import "./contact.css";
 
-function Form() {
+function Contact() {
   const form = useRef(); // Creating a ref for the form
 
   const sendEmail = (e) => {
@@ -23,11 +24,8 @@ function Form() {
   };
 
   return (
-    <div className='form'>
-      <div className="headers">
-        Connect with our <span>Experts</span>
-
-      </div>
+    <div className="contactcss">
+      <NavBar />
       
       <div className="form-details">
         <div className="sidetext">
@@ -58,7 +56,6 @@ function Form() {
         </div>
 
         <Box className="details" p={5}>
-          
           <form ref={form} onSubmit={sendEmail}>
             <FormControl id="UserName">
               <FormLabel>Name</FormLabel>
@@ -92,7 +89,7 @@ function Form() {
         </Box>
       </div>
     </div>
-  )
+  );
 }
 
-export default Form;
+export default Contact;

@@ -18,19 +18,19 @@ function Our_Philosopny() {
             <img src={img2}/>
         </div>
         <div className='bottom_img'>
-           <div>
+           <div className='smlogo'>
             <img src={img3}/>
             <b>Price Action<br/>Trading System</b>
            </div>
-           <div>
+           <div className='smlogo'>
             <img src={img4}/>
             <b>Highly Objective &<br/>Mechanical System</b>
            </div>
-           <div>
+           <div className='smlogo'>
             <img src={img5}/>
             <b>Trend-Following</b>
            </div>
-           <div>
+           <div className='smlogo'>
             <img src={img6}/>
             <b>Basic Maths</b>
            </div>
