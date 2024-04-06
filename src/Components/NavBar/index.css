@@ -1,7 +1,7 @@
 .nav{
     background-color: #171516;
-    position: fixed;
-    width: 1280px;
+    /* position: fixed; */
+    width: auto;
 }
 .left{
     display: flex;
@@ -10,14 +10,15 @@
     width: 40%;
     font-weight: 500;
     color: white;
-    cursor: pointer;
 }
 #iconsAndText img{
     height: 30px;
     margin: 10px;
 }
-.right{
+#btn{
     cursor: pointer;
+}
+.right{
     color: #ffff;
     width: 40%;
     display: flex;
@@ -39,8 +40,8 @@
     height: 50px;
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .right{
         display: none;
     }
-}
+} */

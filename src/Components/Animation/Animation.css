@@ -1,0 +1,9 @@
+.animation{
+    position: relative;
+}
+.aniText{
+    position: absolute;
+    /* z-index: -1; */
+    font-size: 50px;
+    font-weight: 800;
+}

@@ -10,6 +10,11 @@ function Animation() {
         <source src={Ani} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+      <div className="aniText">
+        <p>
+        <span>The 15 Minute Trader</span> MASTERCLASS  
+        </p> 
+        </div>
     </Flex>
     </div>
   );

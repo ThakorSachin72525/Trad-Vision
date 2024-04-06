@@ -1,17 +1,20 @@
 import React from "react";
 import { Flex, Link } from "@chakra-ui/react";
+import { NavLink } from "react-router-dom"; // Import NavLink from react-router-dom
 import "./index.css";
-import YouTubeIcon from '../Social-Media/icons8-youtube-250.png';
+import YouTubeIcon from "../Social-Media/icons8-youtube-250.png";
 
 function Right() {
   return (
     <div className="right">
-      <Flex align="center" ml={8}>
-        <NavItem label="Contact" />
-        <NavItem label="About Us" />
-        <div id='iconsAndText'>
+      <Flex align="center" id="btn" ml={8}>
+        <NavItem label="Contact" to="/contact" />
+        <NavItem label="About Us" to="/about" />
+        <div id="iconsAndText">
           <img
-            onClick={() => window.open("https://www.youtube.com/@tradevisionlive")}
+            onClick={() =>
+              window.open("https://www.youtube.com/@tradevisionlive")
+            }
             src={YouTubeIcon}
             alt="YouTube Icon"
           />
@@ -21,9 +24,12 @@ function Right() {
   );
 }
 
-function NavItem({ label }) {
+function NavItem({ label, to }) {
+  // Accept "to" prop for NavLink
   return (
-    <Link href={`/${label.toLowerCase().replace(" ", "-")}`} fontSize="md" ml={4}>
+    <Link as={NavLink} to={to} fontSize="md" ml={4} activeClassName="active">
+      {" "}
+      {/* Use NavLink instead of Link */}
       {label}
     </Link>
   );

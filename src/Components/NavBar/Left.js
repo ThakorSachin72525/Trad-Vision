@@ -5,7 +5,7 @@ import './index.css';
 function Left() {
   return (
     <div className='left'>
-      <Flex align="center" ml={8}>
+      <Flex id='btn' align="center" ml={8}>
         <NavItem label="Home" />
         <NavItem label="Courses" />
       </Flex>

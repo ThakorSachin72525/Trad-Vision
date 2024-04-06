@@ -3,6 +3,7 @@ import NavBar from "../../Components/NavBar/Navbar.js";
 import { Box, Button, FormControl, FormLabel, Input } from "@chakra-ui/react";
 import emailjs from '@emailjs/browser';
 import "./contact.css";
+import Disclaimer from '../../Components/Disclaimer/Disclaimer.js'
 
 function Contact() {
   const form = useRef(); // Creating a ref for the form
@@ -88,6 +89,8 @@ function Contact() {
           </form>
         </Box>
       </div>
+
+      <Disclaimer/>
     </div>
   );
 }
