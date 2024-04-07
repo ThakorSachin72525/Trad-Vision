@@ -25,11 +25,8 @@ function Right() {
 }
 
 function NavItem({ label, to }) {
-  // Accept "to" prop for NavLink
   return (
     <Link as={NavLink} to={to} fontSize="md" ml={4} activeClassName="active">
-      {" "}
-      {/* Use NavLink instead of Link */}
       {label}
     </Link>
   );

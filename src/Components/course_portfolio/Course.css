@@ -1,70 +1,71 @@
 .Cimgs {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .background-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-  }
-  
-  /* Create overlay */
-  .Cimgs::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(5, 5, 54, 0.8); /* Blue tint */
-    mix-blend-mode: overlay;
-    z-index: 0;
-  }
-  
-  .course-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-    padding: 70px;
-    border-radius: 20%;
-  }
-  
-  .course-card {
-    border-radius: 5%;
-    width: 300px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.8); /* Black shade */
-  }
-  
-  .course-card img {
-    border-radius: 5%;
-    height: 200px;
-  }
-  
-  .course-details {
-    border-radius: 3%;
-    padding: 5px;
-  }
-  
-  .pricebtn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    border-radius: 3%;
-    height: 25px;
-    font-weight: 600;
-  }
-  
-  .pricebtn :nth-child(3) {
-    text-decoration: line-through;
-  }
-  
+  position: relative;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Create overlay */
+.Cimgs::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 5, 54, 0.8); /* Blue tint */
+  mix-blend-mode: overlay;
+  z-index: 0;
+}
+
+.course-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 70px;
+  border-radius: 20%;
+}
+
+.course-card {
+  border-radius: 5%;
+  width: 300px;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8); /* Black shade */
+}
+
+.course-card img {
+  border-radius: 5%;
+  height: 250px;
+}
+
+.course-details {
+  border-radius: 3%;
+  padding: 5px;
+}
+
+.pricebtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 3%;
+  height: 25px;
+  font-weight: 600;
+}
+
+.pricebtn :nth-child(3) {
+  text-decoration: line-through;
+}

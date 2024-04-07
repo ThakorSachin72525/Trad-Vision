@@ -6,4 +6,59 @@
     /* z-index: -1; */
     font-size: 50px;
     font-weight: 800;
+}.animation{
+    position: relative;
+}
+.aniText{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 800;
+    height: 500px;
+    width: 900px;
+    background-color: rgba(0,0 ,0,0.8);
+    border-radius: 1%;
+}
+#anit{
+    font-size: 17px;
+}
+.anibox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    width: 250px;
+    border-radius: 2%;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+}
+.anibox img{
+    height: 45px;
+}
+.aniclass{
+    height: 200px;
+    width: 400px;
+    border-radius: 4%;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    background-color: black;
+}
+#aniclasst{
+    color: white;
+    font-size: 15px;
+}
+#aniclasst img{
+    height: 20px;
+}
+#aniclasst p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
