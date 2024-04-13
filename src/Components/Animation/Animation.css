@@ -1,6 +1,7 @@
 @media screen and (max-width: 600px) {
   .animation video {
     display: none;
+    color:white;
   }
   .animation {
     height: 600px;
@@ -10,6 +11,7 @@
   .aniText {
     background-color: black;
     height: 50vh;
+    color: white;
     width: full;
     font-size: 35px;
     font-weight: bolder;

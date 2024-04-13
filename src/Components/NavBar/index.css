@@ -2,6 +2,7 @@
 .nav{
     background-color: black;
     width: auto;
+    color: white;
 }
 .left{
     display: flex;

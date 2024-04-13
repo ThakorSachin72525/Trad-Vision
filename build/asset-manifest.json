@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.96b70b99.css",
-    "main.js": "/static/js/main.2cb67d9c.js",
+    "main.css": "/static/css/main.5d77332b.css",
+    "main.js": "/static/js/main.fe31e2d2.js",
     "static/media/MarketVideo.mp4": "/static/media/MarketVideo.e0cc2b949b3f5f7da5d3.mp4",
     "static/media/TradingBackground.mp4": "/static/media/TradingBackground.7f2e2c56f68fa4db8ed1.mp4",
     "static/media/founder.jpg": "/static/media/founder.3ee3636c543eaeac245d.jpg",
@@ -26,11 +26,11 @@
     "static/media/3.webp": "/static/media/3.c22912d2edc407d5ca4e.webp",
     "static/media/6.webp": "/static/media/6.42ff8c7a01f9dee1a186.webp",
     "index.html": "/index.html",
-    "main.96b70b99.css.map": "/static/css/main.96b70b99.css.map",
-    "main.2cb67d9c.js.map": "/static/js/main.2cb67d9c.js.map"
+    "main.5d77332b.css.map": "/static/css/main.5d77332b.css.map",
+    "main.fe31e2d2.js.map": "/static/js/main.fe31e2d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.96b70b99.css",
-    "static/js/main.2cb67d9c.js"
+    "static/css/main.5d77332b.css",
+    "static/js/main.fe31e2d2.js"
   ]
 }

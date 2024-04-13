@@ -4,6 +4,11 @@ import { Box, Button, FormControl, FormLabel, Input } from "@chakra-ui/react";
 import emailjs from '@emailjs/browser';
 import "./contact.css";
 import Disclaimer from '../../Components/Disclaimer/Disclaimer.js'
+import Laptop from '../../Components/Form/laptop.png'
+import IdCard from '../../Components/Form/id-card.png'
+import Candlestick from '../../Components/Form/candlestick.png'
+import Calendar from '../../Components/Form/calendar.png'
+import Financial from '../../Components/Form/financial.png'
 
 function Contact() {
   const form = useRef(); // Creating a ref for the form
@@ -31,32 +36,33 @@ function Contact() {
       <div className="form-details">
         <div className="sidetext">
           <div id="texticons">
-            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/laptop.png" alt="Laptop Icon" />
+            <img src={Laptop} alt="Laptop Icon" />
             <b>Live Market Hours Learning</b>
           </div>
 
           <div id="texticons">
-            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/id-card.png" alt="ID Card Icon" />
+            <img src={IdCard} alt="ID Card Icon" />
             <b>Lifetime membership</b>
           </div>
 
-          <div id="texticons">
-            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/calendar.png" alt="Calendar Icon" />
+          <div className="formIcons" id="texticons">
+            <img src={Calendar} alt="Calendar Icon" />
             <b>12 Years of Experience</b>
           </div>
 
-          <div id="texticons">
-            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/chess-1.png" alt="Chess Icon" />
+          <div className="formIcons" id="texticons">
+            <img src={Financial} alt="Chess Icon" />
             <b>70+ In-house Trading Strategies</b>
           </div>
 
           <div id="texticons">
-            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/candlestick.png" alt="Candlestick Icon" />
+            <img src={Candlestick} alt="Candlestick Icon" />
             <b>30+ Options Trading Strategies</b>
           </div>
         </div>
 
         <Box className="details" p={5}>
+          
           <form ref={form} onSubmit={sendEmail}>
             <FormControl id="UserName">
               <FormLabel>Name</FormLabel>
