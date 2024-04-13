@@ -2,6 +2,12 @@ import { Box, Button, FormControl, FormLabel, Input } from "@chakra-ui/react";
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";
 import './Form.css';
+import Laptop from './laptop.png'
+import IdCard from './id-card.png'
+import Candlestick from './candlestick.png'
+import Calender from './calendar.png'
+import Financial from './financial.png'
+
 
 function Form() {
   const form = useRef(); // Creating a ref for the form
@@ -32,27 +38,27 @@ function Form() {
       <div className="form-details">
         <div className="sidetext">
           <div id="texticons">
-            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/laptop.png" alt="Laptop Icon" />
+            <img src={Laptop} alt="Laptop Icon" />
             <b>Live Market Hours Learning</b>
           </div>
 
           <div id="texticons">
-            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/id-card.png" alt="ID Card Icon" />
+            <img src={IdCard} alt="ID Card Icon" />
             <b>Lifetime membership</b>
           </div>
 
-          <div id="texticons">
-            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/calendar.png" alt="Calendar Icon" />
+          <div className="formIcons" id="texticons">
+            <img src={Calender} alt="Calendar Icon" />
             <b>12 Years of Experience</b>
           </div>
 
-          <div id="texticons">
-            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/chess-1.png" alt="Chess Icon" />
+          <div className="formIcons" id="texticons">
+            <img src={Financial} alt="Chess Icon" />
             <b>70+ In-house Trading Strategies</b>
           </div>
 
           <div id="texticons">
-            <img src="https://cdn-kljhn.nitrocdn.com/nKlGOhXnVsIfMKVRxfPqTWWbOxfRVUKB/assets/images/optimized/rev-a733d73/finwingsacademy.com/wp-content/uploads/2022/06/candlestick.png" alt="Candlestick Icon" />
+            <img src={Candlestick} alt="Candlestick Icon" />
             <b>30+ Options Trading Strategies</b>
           </div>
         </div>

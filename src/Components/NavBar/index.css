@@ -1,6 +1,6 @@
+@media screen and (min-width: 600px) {
 .nav{
-    background-color: #171516;
-    /* position: absolute; */
+    background-color: black;
     width: auto;
 }
 .left{
@@ -11,7 +11,7 @@
     font-weight: 500;
     color: white;
 }
-#iconsAndText img{
+#iconsAndTexts img{
     height: 30px;
     margin: 10px;
 }
@@ -40,8 +40,30 @@
     height: 50px;
 }
 
-/* @media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 600px) {
+    .nav{
+        background-color: black;
+    }
+    .left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+    }
     .right{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_img img{
+        height: 80px;
+        width: 150px;
+    }
+    #iconsAndTexts img{
         display: none;
     }
-} */
+    
+}
+

@@ -1,0 +1,58 @@
+/* Founder.css */
+.founder-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .founder-box,
+  .director-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .founder-box h2,
+  .director-box h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .founder-name,
+  .director-name {
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .founder-image,
+  .director-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .founder-description,
+  .director-description {
+    color: #666;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 600px) {
+
+  .founder-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+  }
+}

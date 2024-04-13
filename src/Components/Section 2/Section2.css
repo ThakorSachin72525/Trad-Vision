@@ -14,11 +14,11 @@
         gap: 5px;
         align-items: center;
         justify-content: center;
-        flex-direction: row; /* Stack the images vertically on small devices */
+        flex-direction: row;
     }
     .sec2imgs img {
         height: 150px;
-        width: 160px; /* Adjust the height to maintain aspect ratio */
-        max-width: 100%; /* Make sure the image doesn't overflow the container */
+        width: 200px;
+        max-width: 100%;
     }
 }

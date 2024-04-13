@@ -15,7 +15,7 @@ span{
 }
 .form {
     position: relative;
-    background-image: url('./img1.jpg');
+    background-image: url('./bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -37,9 +37,14 @@ span{
     gap: 20px;
 }
 #texticons{
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
+.formIcons img{
+    filter: invert(1);
+    height: 45px;
 }
 

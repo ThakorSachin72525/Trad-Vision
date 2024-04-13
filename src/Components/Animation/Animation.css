@@ -1,15 +1,83 @@
-.animation{
-    position: relative;
+@media screen and (max-width: 600px) {
+  .animation video {
+    display: none;
+  }
+  .animation {
+    height: 600px;
+    width: full;
+    background-color: black;
+  }
+  .aniText {
+    background-color: black;
+    height: 50vh;
+    width: full;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .aniText p {
+    padding: 10px;
+  }
+  #anit {
+    font-size: 18px;
+  }
+  .anibox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    height: 7vh;
+    width: 100%;
+    border-radius: 2%;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+  }
+  .anibox img {
+    height: 45px;
+  }
+  .aniclass {
+    height: 200px;
+    width: 400px;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    background-color: black;
+  }
+
+  #aniclasst {
+    color: white;
+    font-size: 15px;
+    padding-left: 80px;
+  }
+
+  #aniclasst img {
+    height: 20px;
+  }
+
+  #aniclasst p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
 }
-.aniText{
+
+@media screen and (min-width: 600px) {
+  .animation {
+    position: relative;
+  }
+
+  .aniText {
     position: absolute;
-    /* z-index: -1; */
     font-size: 50px;
     font-weight: 800;
-}.animation{
-    position: relative;
-}
-.aniText{
+  }
+
+  .aniText {
     position: absolute;
     display: flex;
     align-items: center;
@@ -21,13 +89,15 @@
     font-weight: 800;
     height: 500px;
     width: 900px;
-    background-color: rgba(0,0 ,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 1%;
-}
-#anit{
+  }
+
+  #anit {
     font-size: 17px;
-}
-.anibox{
+  }
+
+  .anibox {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -37,11 +107,13 @@
     color: black;
     font-size: 20px;
     background-color: white;
-}
-.anibox img{
+  }
+
+  .anibox img {
     height: 45px;
-}
-.aniclass{
+  }
+
+  .aniclass {
     height: 200px;
     width: 400px;
     border-radius: 4%;
@@ -49,16 +121,20 @@
     padding: 10px;
     font-size: 25px;
     background-color: black;
-}
-#aniclasst{
+  }
+
+  #aniclasst {
     color: white;
     font-size: 15px;
-}
-#aniclasst img{
+  }
+
+  #aniclasst img {
     height: 20px;
-}
-#aniclasst p{
+  }
+
+  #aniclasst p {
     display: flex;
     align-items: center;
     gap: 10px;
+  }
 }

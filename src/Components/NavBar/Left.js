@@ -6,7 +6,7 @@ import './index.css';
 function Left() {
   return (
     <div className='left'>
-      <Flex id='btn' align="center" ml={8}>
+      <Flex id='btn' align="center">
         <NavItem label="Home" to="/" />
         <NavItem label="Courses" to="/courses" />
       </Flex>
@@ -17,9 +17,7 @@ function Left() {
 function NavItem({ label, to }) {
   // Accept "to" prop for NavLink
   return (
-    <Link as={NavLink} to={to} fontSize="md" ml={4} activeClassName="active">
-      {" "}
-      {/* Use NavLink instead of Link */}
+    <Link as={NavLink} to={to} fontWeight="bold" fontSize="md" ml={2} activeClassName="active">
       {label}
     </Link>
   );

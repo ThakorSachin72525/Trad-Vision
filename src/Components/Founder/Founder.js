@@ -1,62 +1,31 @@
-import React from 'react'
-import FounderImg from './founder.jpg'
-import DirectorImg from './dir.png'
+// Founder.jsx
+import React from 'react';
+import FounderImg from './founder.jpg';
+import DirectorImg from './dir.png';
+import './Founder.css'; // Import the CSS file
 
 function Founder() {
   return (
-    <div style={{ 
-      display: 'flex', 
-      flexDirection: 'column', 
-      alignItems: 'center', 
-      backgroundColor: '#f4f4f4', 
-      padding: '20px', 
-      borderRadius: '10px' 
-    }}>
-      <div style={{ display: 'flex', justifyContent: 'space-around', width: '100%' }}>
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <h2 style={{ color: '#333', marginBottom: '10px' }}>Founder</h2>
-          <p style={{ fontWeight: "500", color: '#666', marginBottom: '20px' }}>Narbheram Sadhu</p>
-
-          <img 
-            src={FounderImg} 
-            alt="Founder" 
-            style={{ 
-              borderRadius: '50%', 
-              width: '150px', 
-              height: '150px', 
-              objectFit: 'cover', 
-              marginBottom: '20px' 
-            }} 
-          />
-
-          <p style={{ color: '#666', textAlign: 'center' }}>
+    <div className="founder-container">
+      <div className="founder-box">
+        <h2>Founder</h2>
+        <p className="founder-name">Narbheram Sadhu</p>
+        <img src={FounderImg} alt="Founder" className="founder-image" />
+        <p className="founder-description">
           The platform’s founder is a seasoned trader with a decade of diverse trading experience, including full-time intraday and forex trading.
-          </p>
-        </div>
+        </p>
+      </div>
 
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <h2 style={{ color: '#333', marginBottom: '10px' }}>Director</h2>
-          <p style={{ fontWeight: "500", color: '#666', marginBottom: '20px' }}>Prem Sadhu</p>
-
-          <img 
-            src={DirectorImg} 
-            alt="Director" 
-            style={{ 
-              borderRadius: '50%', 
-              width: '150px', 
-              height: '150px', 
-              objectFit: 'cover', 
-              marginBottom: '20px' 
-            }} 
-          />
-
-          <p style={{ color: '#666', textAlign: 'center' }}>
-          Our director, with a rich blend of academic and industry experience, brings a unique perspective to our platform.
-          </p>
-        </div>
+      <div className="director-box">
+        <h2>Director</h2>
+        <p className="director-name">Prem Sadhu</p>
+        <img src={DirectorImg} alt="Director" className="director-image" />
+        <p className="director-description">
+          Our director, with a rich blend of academic and industry experience, brings a...
+        </p>
       </div>
     </div>
-  )
+  );
 }
 
-export default Founder
+export default Founder;

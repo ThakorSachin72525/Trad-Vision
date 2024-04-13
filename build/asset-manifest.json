@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa7eff91.css",
-    "main.js": "/static/js/main.d4796fd9.js",
+    "main.css": "/static/css/main.96b70b99.css",
+    "main.js": "/static/js/main.2cb67d9c.js",
     "static/media/MarketVideo.mp4": "/static/media/MarketVideo.e0cc2b949b3f5f7da5d3.mp4",
-    "static/media/CryptoTrading.png": "/static/media/CryptoTrading.2b6a6388309727dbf992.png",
-    "static/media/ForexTrading.png": "/static/media/ForexTrading.27b7fa59b34570dfabf6.png",
-    "static/media/TechnicalAnalysis.png": "/static/media/TechnicalAnalysis.d63c49c200ae2c83671e.png",
-    "static/media/OptionsForBeginners.png": "/static/media/OptionsForBeginners.743d90009a9ea0ba7f3f.png",
-    "static/media/ForexForBegnners.png": "/static/media/ForexForBegnners.ea2286f453b56e8525fa.png",
-    "static/media/AdvancedOptionsTrading.png": "/static/media/AdvancedOptionsTrading.8c239f75f7488a02e98d.png",
-    "static/media/AdvancedTechnicalAnalysis.png": "/static/media/AdvancedTechnicalAnalysis.c9a58f5f7bb8a26d7306.png",
     "static/media/TradingBackground.mp4": "/static/media/TradingBackground.7f2e2c56f68fa4db8ed1.mp4",
     "static/media/founder.jpg": "/static/media/founder.3ee3636c543eaeac245d.jpg",
     "static/media/dir.png": "/static/media/dir.a6f8f10094cafb82a886.png",
+    "static/media/ForexForBegnners.png": "/static/media/ForexForBegnners.adb9d0379bbf08886d41.png",
     "static/media/img1.jpg": "/static/media/img1.8f6b43c430530e66971c.jpg",
+    "static/media/AdvancedTechnicalAnalysis.jpg": "/static/media/AdvancedTechnicalAnalysis.1a3939f584c11711684a.jpg",
+    "static/media/AdvancedOptionsTrading.jpg": "/static/media/AdvancedOptionsTrading.43e4d88f9e7ae878d020.jpg",
+    "static/media/OptionsForBeginners.jpg": "/static/media/OptionsForBeginners.93c53b743887cb2b38dc.jpg",
+    "static/media/TechnicalAnalysis.jpg": "/static/media/TechnicalAnalysis.5d500b6b31962559d741.jpg",
+    "static/media/ForexTrading.jpg": "/static/media/ForexTrading.5405cf17ec7580597702.jpg",
+    "static/media/CryptoTrading.jpg": "/static/media/CryptoTrading.9d117484d8fc551a0249.jpg",
     "static/media/img2.jpg": "/static/media/img2.a9dfac6d3cd6f0233d58.jpg",
     "static/media/logo.png": "/static/media/logo.d447f43e875051cd01af.png",
-    "static/media/icons8-instagram-240.png": "/static/media/icons8-instagram-240.d6ff2eebf48664872533.png",
+    "static/media/bg.jpg": "/static/media/bg.91c1a58293b00afd135a.jpg",
+    "static/media/icons8-instagram-240.png": "/static/media/icons8-instagram-240.00f9ab659d4e62520af0.png",
     "static/media/1.webp": "/static/media/1.909ac23a6d7a9cd9adfb.webp",
     "static/media/icons8-whatsapp-240.png": "/static/media/icons8-whatsapp-240.61af9037ce0d5bdb81e0.png",
     "static/media/2.webp": "/static/media/2.e1d2603dedea0e7394d8.webp",
@@ -25,11 +26,11 @@
     "static/media/3.webp": "/static/media/3.c22912d2edc407d5ca4e.webp",
     "static/media/6.webp": "/static/media/6.42ff8c7a01f9dee1a186.webp",
     "index.html": "/index.html",
-    "main.fa7eff91.css.map": "/static/css/main.fa7eff91.css.map",
-    "main.d4796fd9.js.map": "/static/js/main.d4796fd9.js.map"
+    "main.96b70b99.css.map": "/static/css/main.96b70b99.css.map",
+    "main.2cb67d9c.js.map": "/static/js/main.2cb67d9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa7eff91.css",
-    "static/js/main.d4796fd9.js"
+    "static/css/main.96b70b99.css",
+    "static/js/main.2cb67d9c.js"
   ]
 }

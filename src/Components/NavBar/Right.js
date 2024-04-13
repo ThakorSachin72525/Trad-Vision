@@ -1,16 +1,16 @@
 import React from "react";
 import { Flex, Link } from "@chakra-ui/react";
-import { NavLink } from "react-router-dom"; // Import NavLink from react-router-dom
+import { NavLink } from "react-router-dom";
 import "./index.css";
 import YouTubeIcon from "../Social-Media/icons8-youtube-250.png";
 
 function Right() {
   return (
     <div className="right">
-      <Flex align="center" id="btn" ml={8}>
+      <Flex align="center" id="btn">
         <NavItem label="Contact" to="/contact" />
         <NavItem label="About Us" to="/about" />
-        <div id="iconsAndText">
+        <div id="iconsAndTexts">
           <img
             onClick={() =>
               window.open("https://www.youtube.com/@tradevisionlive")
@@ -26,7 +26,7 @@ function Right() {
 
 function NavItem({ label, to }) {
   return (
-    <Link as={NavLink} to={to} fontSize="md" ml={4} activeClassName="active">
+    <Link as={NavLink} to={to} fontSize="md" fontWeight="bold" mr={2} activeClassName="active">
       {label}
     </Link>
   );

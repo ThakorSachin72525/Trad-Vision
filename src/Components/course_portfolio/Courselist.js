@@ -1,13 +1,13 @@
 import React from "react";
 import "./Course.css";
 import BgVideo from "./TradingBackground.mp4";
-import OptionsForBeginners from "./OptionsForBeginners.png";
+import OptionsForBeginners from "./OptionsForBeginners.jpg";
 import ForexForBegnners from "./ForexForBegnners.png";
-import ForexTrading from "./ForexTrading.png";
-import AdvancedTechnicalAnalysis from "./AdvancedTechnicalAnalysis.png";
-import TechnicalAnalysis from "./TechnicalAnalysis.png";
-import CryptoTrading from "./CryptoTrading.png";
-import AdvancedOptionsTrading from "./AdvancedOptionsTrading.png";
+import ForexTrading from "./ForexTrading.jpg";
+import AdvancedTechnicalAnalysis from "./AdvancedTechnicalAnalysis.jpg";
+import TechnicalAnalysis from "./TechnicalAnalysis.jpg";
+import CryptoTrading from "./CryptoTrading.jpg";
+import AdvancedOptionsTrading from "./AdvancedOptionsTrading.jpg";
 import CourseCard from "./CourseCard";
 
 function Courselist() {
