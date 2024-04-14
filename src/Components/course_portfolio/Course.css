@@ -11,8 +11,8 @@
   height: 100%;
   object-fit: cover;
   z-index: -1;
+  background-color: rgba(5, 5, 54, 0.8);
 }
-
 .Cimgs::before {
   content: '';
   position: absolute;
@@ -23,6 +23,7 @@
   background-color: rgba(5, 5, 54, 0.8);
   mix-blend-mode: overlay;
   z-index: 0;
+  pointer-events: none; /* Ensure click events pass through the overlay */
 }
 
 .course-content {
@@ -47,6 +48,10 @@
 }
 
 .course-details {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 140px;
   border-radius: 3%;
   padding: 5px;
 }
