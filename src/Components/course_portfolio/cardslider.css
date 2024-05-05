@@ -1,0 +1,206 @@
+.maincard {
+    width: 80%;
+    margin: auto;
+}
+
+.secondcard {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#cardImg {
+    height: 200px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.card {
+    background-color: black;
+    height: 400px;
+    color: white;
+    border-radius: 20px;
+}
+
+.thirdcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#card_title {
+    font-weight: 700;
+    font-size: larger;
+}
+
+#card_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: large;
+    background-color: black;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 40px;
+}
+
+#card_discount {
+    text-decoration: line-through;
+}
+
+@media only screen and (max-width: 991px) {
+    .card_content {
+        gap: 5px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .maincard {
+        width: 50%;
+        margin: auto;
+    }
+    
+    .card {
+        background-color: black;
+        height: 420px;
+        color: white;
+        border-radius: 20px;
+    }
+    .card_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        padding: 30px;
+    }
+    
+    #card_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        font-size: large;
+        background-color: black;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        height: 35px;
+    }
+    
+    #card_discount {
+        text-decoration: line-through;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .maincard {
+        width: 70%;
+        margin: auto;
+    }
+    
+    .card {
+        background-color: black;
+        height: 450px;
+        color: white;
+        border-radius: 20px;
+    }
+    .card_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        padding: 30px;
+    }
+    
+    #card_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        font-size: large;
+        background-color: black;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        height: 35px;
+    }
+    
+    #card_discount {
+        text-decoration: line-through;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .maincard {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .secondcard {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    #cardImg {
+        height: 150px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    
+    .card {
+        background-color: black;
+        height: 400px;
+        color: white;
+        border-radius: 20px;
+    }
+    
+    .thirdcard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 15px;
+        text-align: center;
+        /* gap: 20px;
+        padding: 30px; */
+    }
+    
+    #card_title {
+        font-weight: 600;
+        font-size: 16px;
+    }
+    
+    #card_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        font-size: 15px;
+        background-color: black;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        height: 40px;
+    }
+    
+    #card_discount {
+        text-decoration: line-through;
+    }
+}

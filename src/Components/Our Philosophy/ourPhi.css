@@ -59,7 +59,28 @@
 }
   
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
-    /* Styles for medium devices here */
+    .top_img img{
+        height: 150px;
+    }
+    .top_img{
+        padding: 15px;
+        gap: 25px;
+    }
+    .smlogo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom_img{
+        padding-top: 25px;
+        font-size: 10px;
+        gap: 10px;
+        text-align: center;
+    }
+    .bottom_img img{
+        height: 70px;
+    }
   }
 
 @media only screen and (min-width: 1025px) {

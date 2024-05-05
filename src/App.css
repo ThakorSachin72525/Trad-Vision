@@ -1,0 +1,25 @@
+@layer base{
+    body{
+        background-color: black;
+    }
+}
+
+.slick-slide > div {
+    margin: 0 10px;
+}
+
+.slick-prev,
+.slick-next {
+    background-color: rgb(29, 223, 158);
+}
+
+/* Change the color of the arrow icon */
+.slick-prev:before,
+.slick-next:before {
+    color: white;
+}
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    background-color: green !important;
+    color: white !important;
+}

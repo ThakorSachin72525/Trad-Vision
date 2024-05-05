@@ -1,7 +1,78 @@
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 414px) {
   .animation video {
     display: none;
-    color:white;
+    color: white;
+  }
+  .animation {
+    height: 600px;
+    width: full;
+    background-color: black;
+  }
+  .aniText {
+    background-color: black;
+    height: 50vh;
+    color: white;
+    width: auto;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .aniText p {
+    padding: 10px;
+  }
+  #anit {
+    font-size: 18px;
+  }
+  .anibox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    height: 7vh;
+    width: 100%;
+    border-radius: 2%;
+    color: black;
+    font-size: 13px;
+    background-color: white;
+  }
+  .anibox img {
+    height: 30px;
+  }
+  .aniclass {
+    height: 200px;
+    width: auto;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    background-color: black;
+  }
+
+  #aniclasst {
+    color: white;
+    font-size: 15px;
+    padding-left: 80px;
+  }
+
+  #aniclasst img {
+    height: 20px;
+  }
+
+  #aniclasst p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }  
+}
+
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+  .animation video {
+    display: none;
+    color: white;
   }
   .animation {
     height: 600px;
@@ -68,7 +139,78 @@
   }
 }
 
-@media screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .animation {
+    position: relative;
+  }
+  .aniText {
+    position: absolute;
+    font-size: 50px;
+    font-weight: 800;
+  }
+  .aniText {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 800;
+    height: 330px;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 1%;
+  }
+
+  #anit {
+    font-size: 15px;
+  }
+
+  .anibox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 250px;
+    border-radius: 2%;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+  }
+
+  .anibox img {
+    height: 35px;
+  }
+
+  .aniclass {
+    height: 200px;
+    width: 400px;
+    border-radius: 4%;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    background-color: black;
+  }
+
+  #aniclasst {
+    color: white;
+    font-size: 15px;
+  }
+
+  #aniclasst img {
+    height: 20px;
+  }
+
+  #aniclasst p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+@media only screen and (min-width: 992px){
   .animation {
     position: relative;
   }

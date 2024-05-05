@@ -8,7 +8,9 @@ import Mission from './Components/youtube/Mission';
 import Founder from './Components/Founder/Founder';
 import SocialMedia from './Components/Social-Media/Social-Media'
 import Form from './Components/Form/Form'
+import CardSlider from './Components/course_portfolio/cardSlider';
 import Disclaimer from './Components/Disclaimer/Disclaimer';
+
 function App() {
 
   return (
@@ -22,6 +24,7 @@ function App() {
       <Founder/>
       <SocialMedia/>
       <Form/>
+      <CardSlider/>
       <Disclaimer/>
     </div>
   );
