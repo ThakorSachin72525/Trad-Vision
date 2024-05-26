@@ -1,9 +1,14 @@
 .maincard {
-    width: 80%;
     margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .secondcard {
+    width: 80%;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -62,12 +67,28 @@
     .card_content {
         gap: 5px;
     }
+    .maincard {
+        margin: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .secondcard {
+        width: 80%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
-    .maincard {
+    .secondcard {
         width: 50%;
         margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     
     .card {
@@ -104,11 +125,16 @@
 }
 
 @media only screen and (max-width: 480px) {
-    .maincard {
+    
+    
+    .secondcard {
+        margin: auto;
         width: 70%;
         margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
-    
+
     .card {
         background-color: black;
         height: 450px;
@@ -143,15 +169,16 @@
 }
 
 @media only screen and (max-width: 320px) {
-    .maincard {
-        width: 80%;
-        margin: auto;
-    }
     
     .secondcard {
+        margin: auto;
+        margin: auto;
+        width: 80%;
+        margin: auto;
         margin-top: 50px;
         margin-bottom: 50px;
     }
+    
     
     #cardImg {
         height: 150px;
