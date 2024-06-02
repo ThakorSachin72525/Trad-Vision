@@ -1,0 +1,31 @@
+h1{
+    font-size: larger;
+    font-weight: bolder;
+}
+.Showcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 2%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.Showcardcourse {
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.pricetext{
+    font-weight: bolder;
+    font-size: larger;
+    gap: 10px;
+    display: flex;
+}
+.pricetext :nth-child(2){
+    color: #00f381;
+}
+.pricetext :nth-child(3){
+    text-decoration: line-through;
+}

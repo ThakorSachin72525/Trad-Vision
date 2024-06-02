@@ -17,7 +17,7 @@ function Left() {
 function NavItem({ label, to }) {
   // Accept "to" prop for NavLink
   return (
-    <Link as={NavLink} to={to} color={'white'} fontWeight="bold" ml={2} activeClassName="active">
+    <Link as={NavLink} to={to} color={'white'} fontWeight="bold" ml={2}>
       {label}
     </Link>
   );

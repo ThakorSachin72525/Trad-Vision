@@ -26,7 +26,7 @@ function Right() {
 
 function NavItem({ label, to }) {
   return (
-    <Link as={NavLink} to={to} color={'white'} fontWeight="bold" activeClassName="active">
+    <Link as={NavLink} to={to} color={'white'} fontWeight="bold">
       {label}
     </Link>
   );

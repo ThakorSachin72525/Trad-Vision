@@ -3,6 +3,10 @@
   overflow: hidden;
 }
 
+.card{
+  height: 100%;
+}
+
 .background-video {
   position: absolute;
   top: 0;

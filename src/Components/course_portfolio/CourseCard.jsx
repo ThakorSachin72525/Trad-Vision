@@ -1,22 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
-// Function to generate a slug from the title
-const generateSlug = (title) => {
-  return title.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
-};
+import './Course.css';
+import { useNavigate } from 'react-router-dom';
 
 const CourseCard = ({ course }) => {
-  const { title, image, description, price, discount } = course;
-
-  const slug = generateSlug(title);
+  const { title, image, description, price, discount, slug } = course;
+  const navigate = useNavigate(); // Initialize navigate function using useNavigate
 
   const handleClick = () => {
-    console.log('Course card clicked:', title);
+    console.log("Navigating to:", `/courses/${slug}`, "with state:", { course });
+    navigate(`/courses/${slug}`, { state: {course} }); // Use navigate function to navigate to the course detail page
   };
 
   return (
-    <Link to={`/courses/${slug}`} className="card course-card" onClick={handleClick}>
+    <div className="card course-card" onClick={handleClick}> {/* Remove Link component */}
       <img src={image} alt="Course" className="course-card-image" />
       <div className="course-details">
         <p className="course-card-title"><b>{title}</b></p>
@@ -27,7 +23,7 @@ const CourseCard = ({ course }) => {
           {discount && <p className="course-discount">{discount}</p>}
         </div>
       </div>
-    </Link>
+    </div>
   );
 }
 

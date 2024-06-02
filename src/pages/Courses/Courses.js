@@ -1,12 +1,13 @@
 import Navbar from "../../Components/NavBar/Navbar"
-import Courselist from "../../Components/course_portfolio/Courselist.js"
 import Disclaimer from "../../Components/Disclaimer/Disclaimer.js"
+import courses from "../../Components/course_portfolio/coursedetails.jsx"
+import CourseList from "./CourseNewPages.js"
 
 function Courses() {
   return (
     <div className="Courses">
         <Navbar/>
-        <Courselist/>
+        <CourseList courses = {courses}/>
         <Disclaimer/>
     </div>
   )
