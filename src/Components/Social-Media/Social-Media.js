@@ -18,21 +18,21 @@ function SocialMedia() {
       <div className='soIcons'>
         
       <div id='iconsAndText'>
-        <img onClick={() => window.open("https://www.instagram.com/trade__vision__007/")} src={Insta}/>
+        <img alt='Insta' onClick={() => window.open("https://www.instagram.com/trade__vision__007/")} src={Insta}/>
         <b>Instagram</b>
       </div>
 
       <div id='iconsAndText'>
-        <img onClick={() => window.open("https://www.youtube.com/@tradevisionlive")} src={YouTube}/>
+        <img alt='Youtube' onClick={() => window.open("https://www.youtube.com/@tradevisionlive")} src={YouTube}/>
         <b>YouTube</b>
       </div>
 
       <div id='iconsAndText'>
-        <img onClick={() => window.open("https://t.me/nkstok")} src={Telegram}/>
+        <img alt='telegram' onClick={() => window.open("https://t.me/nkstok")} src={Telegram}/>
         <b>Telegram</b>
       </div>
       <div id='iconsAndText'>
-        <img onClick={() => window.open("https://chat.whatsapp.com/HX9LmzTPplyJaERRaHHxNV")} src={WhatsApp}/>
+        <img alt='whatsapp' onClick={() => window.open("https://chat.whatsapp.com/HX9LmzTPplyJaERRaHHxNV")} src={WhatsApp}/>
         <b>WhatsApp</b>
       </div>
 
@@ -40,11 +40,11 @@ function SocialMedia() {
 
       <div className='soIcons'>
       <div id='iconsAndText'>
-        <img onClick={() => window.open("https://mail.google.com/mail/u/0/#imp/FMfcgzGxSHnhCHsdqQWgvCRCjFSrMRxL?compose=new")} src={Gmail}/>
+        <img alt='gmail' onClick={() => window.open("https://mail.google.com/mail/u/0/#imp/FMfcgzGxSHnhCHsdqQWgvCRCjFSrMRxL?compose=new")} src={Gmail}/>
         <b>tradevision100@gmail.com</b>
       </div>
       <div id='iconsAndText'>
-        <img src={Phone}/>
+        <img alt='Phone' src={Phone}/>
         <b>Connect No <br/>9313355076</b>
       </div>
       </div>

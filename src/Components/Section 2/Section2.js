@@ -5,8 +5,8 @@ import './Section2.css'
 function Section2() {
   return (
     <div className='sec2imgs'>
-        <img src={Sec2Img1}/>
-        <img src={Sec2Img2}/>
+        <img alt='Sec2Img1' src={Sec2Img1}/>
+        <img alt='Sec2Img2' src={Sec2Img2}/>
     </div>
   )
 }

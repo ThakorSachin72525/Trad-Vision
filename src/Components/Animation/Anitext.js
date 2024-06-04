@@ -14,7 +14,7 @@ function Anitext() {
       </p>
 
       <div className="anibox">
-        <img src={Calendar} />
+        <img alt="Calendar" src={Calendar} />
         <p>
           Every Saturday
           <br />
@@ -28,19 +28,19 @@ function Anitext() {
         </p>
         <div id="aniclasst">
           <p>
-            <img src={Correct} /> Banknifty Future
+            <img alt="Correct" src={Correct} /> Banknifty Future
           </p>
           <p>
-            <img src={Correct} /> Banknifty Options Buying
+            <img alt="Correct"  src={Correct} /> Banknifty Options Buying
           </p>
           <p>
-            <img src={Correct} /> Banknifty Options Selling
+            <img  alt="Correct" src={Correct} /> Banknifty Options Selling
           </p>
           <p>
-            <img src={Correct} /> Forex : USD/INR
+            <img alt="Correct"  src={Correct} /> Forex : USD/INR
           </p>
           <p>
-            <img src={Correct} /> Risk Management
+            <img alt="Correct"  src={Correct} /> Risk Management
           </p>
         </div>
       </div>

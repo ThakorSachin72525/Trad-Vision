@@ -1,10 +1,10 @@
 import { useLocation } from "react-router-dom";
 import "./Course.css";
 import BgVideo from "./TradingBackground.mp4";
-import Form from "../../Components/Form/Form.js"
-import qrCode from "../../Components/course_portfolio/qrCode.jpeg"
+import Form from "../Form/Form.js"
+import qrCode from "../course_portfolio/qrCode.jpeg"
 import "./ShowCoursePage.css"
-import Navbar from "../../Components/NavBar/Navbar.js"
+import Navbar from "../NavBar/Navbar.js"
 
 const ShowCoursePage = () => {
   const location = useLocation();
@@ -36,7 +36,7 @@ const ShowCoursePage = () => {
         </div>
         
         </div>
-        <img src={qrCode} className="qrcode"/>
+        <img src={qrCode} className="qrcode" alt="QC Code"/>
       </div>
       <Form/>
     </div>

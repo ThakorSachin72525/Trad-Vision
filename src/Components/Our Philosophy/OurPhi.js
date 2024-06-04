@@ -14,24 +14,24 @@ function Our_Philosopny() {
       </b>
       </div>
         <div className='top_img'>
-            <img src={img1}/>
-            <img src={img2}/>
+            <img alt='img1' src={img1}/>
+            <img alt='img2' src={img2}/>
         </div>
         <div className='bottom_img'>
            <div className='smlogo'>
-            <img src={img3}/>
+            <img alt='img3' src={img3}/>
             <b>Price Action<br/>Trading System</b>
            </div>
            <div className='smlogo'>
-            <img src={img4}/>
+            <img alt='img4' src={img4}/>
             <b>Highly Objective &<br/>Mechanical System</b>
            </div>
            <div className='smlogo'>
-            <img src={img5}/>
+            <img alt='img5' src={img5}/>
             <b>Trend-Following</b>
            </div>
            <div className='smlogo'>
-            <img src={img6}/>
+            <img alt='img6' src={img6}/>
             <b>Basic Maths</b>
            </div>
         </div>
