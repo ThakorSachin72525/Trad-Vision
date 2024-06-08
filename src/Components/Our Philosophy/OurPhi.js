@@ -5,7 +5,7 @@ import img4 from './4.webp'
 import img5 from './5.webp'
 import img6 from './6.webp'
 import './ourPhi.css'
-function Our_Philosopny() {
+function OurPhilosopny() {
   return (
     <div className='Our_Philosopny'>
       <div id='Hline'>
@@ -39,4 +39,4 @@ function Our_Philosopny() {
   )
 }
 
-export default Our_Philosopny
+export default OurPhilosopny

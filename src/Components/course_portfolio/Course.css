@@ -1,6 +1,7 @@
 .Cimgs {
   position: relative;
   overflow: hidden;
+  color: white;
 }
 
 .card{
